@@ -9,5 +9,6 @@ public class Main {
     public static void main(String[] args) {
         SmartLight s = new SmartLight();
         System.out.println(s.toString());
+        s.operation();
     }
 }
