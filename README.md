@@ -8,3 +8,10 @@ Begynd med at forke mit projekt fra https://github.com/andracs/SmartLight-opgave
 
 
 ![UML](https://raw.githubusercontent.com/andracs/SmartLight-opgave/master/docs/SmartLight.png)
+
+*kursiv* **fed** ***kursivogfed***
+
+```java
+   System.out.println("Hest");
+   String abe = "s";
+```
