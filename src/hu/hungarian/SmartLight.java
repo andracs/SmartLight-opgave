@@ -45,4 +45,21 @@ public class SmartLight {
         if(color != Color.BLACK)
             this.color = color;
     }
+
+    public void TechnoOperation(){
+        String[] colors = {"purple", "blue", "yellow", "blue", "green", "orange"};
+        long startTime = System.currentTimeMillis();
+        long currentTime = System.currentTimeMillis();
+        long difference = currentTime - startTime;
+        int lastSecond = 0;
+        System.out.println("The color is " + colors[0]);
+        while(difference < 20000){
+            int second = (int) difference / 1000;
+            if(second != lastSecond)
+                System.out.println("The color changes to " + colors[second % 6]);
+            lastSecond = second;
+            currentTime = System.currentTimeMillis();
+            difference = currentTime - startTime;
+        }
+    }
 }
