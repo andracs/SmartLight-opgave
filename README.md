@@ -6,7 +6,6 @@ Jeg har skrevet en [unit test](https://github.com/andracs/SmartLight-opgave/blob
 
 Begynd med at forke mit projekt fra https://github.com/andracs/SmartLight-opgave og skriv SmartLight klassen om således, at den lever op til både klassediagrammet og unit testen.
 
-
 ![UML](https://raw.githubusercontent.com/andracs/SmartLight-opgave/master/docs/SmartLight.png)
 
 *kursiv* **fed** ***kursivogfed***
@@ -15,3 +14,4 @@ Begynd med at forke mit projekt fra https://github.com/andracs/SmartLight-opgave
    System.out.println("Hest");
    String abe = "s";
 ```
+Tak til dalphs for løsning :-) 
